@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+html,body,.bg {
+    height: 100%;
+    width: 100%;
+}
+.bg:nth-child(1) {
+    background: url("./image/by1.jpg") no-repeat center/cover;
+}
+.bg:nth-child(2) {
+    background: url("./image/by2.jpg") no-repeat center/cover;
+}
+.bg:nth-child(3) {
+    background: url("./image/by3.jpg") no-repeat center/cover;
+}
+.bg:nth-child(4) {
+    background: url("./image/by4.jpg") no-repeat center/cover;
+}
+.bg:nth-child(5) {
+    background: url("./image/by5.jpg") no-repeat center/cover;
+}
+.bg {
+    display: none;
+}
+.bg-active {
+    display: block;
+    opacity: .8;
+}
+.main {
+    position: absolute;
+    width: 1100px;
+    height: 400px;
+    /*background: pink;*/
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.main ul {
+    list-style: none;
+}
+.main ul li {
+    float: left;
+    width: 100px;
+    height: 400px;
+    transition: all 1s;
+}
+.main ul li.li-active {
+    width: 700px;
+    height: 400px;
+    background: #666666;
+}
+.main ul li:nth-child(1) {
+    background: url("./image/by1.jpg") no-repeat center/cover;
+}
+.main ul li:nth-child(2) {
+    background: url("./image/by2.jpg") no-repeat center/cover;
+}
+.main ul li:nth-child(3) {
+    background: url("./image/by3.jpg") no-repeat center/cover;
+}
+.main ul li:nth-child(4) {
+    background: url("./image/by4.jpg") no-repeat center/cover;
+}
+.main ul li:nth-child(5) {
+    background: url("./image/by5.jpg") no-repeat center/cover;
+}
+.main ul li div {
+    height: 400px;
+    width: 100px;
+    background: black;
+    opacity: .5;
+}
+.main ul li div p{
+    color: white;
+    width: 14px;
+    padding: 100px 40px;
+}
